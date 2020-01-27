@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name TIP147)(type Legacy)(uri ${KIPRJMOD}/Library/TIP147/TIP147.lib)(options "")(descr ""))
+  (lib (name BAS116T)(type Legacy)(uri ${KIPRJMOD}/Library/BAS116T/BAS116T.lib)(options "")(descr ""))
+  (lib (name IRF7313)(type Legacy)(uri ${KIPRJMOD}/Library/IRF7313/IRF7313.lib)(options "")(descr ""))
+  (lib (name RPi_Zero_pHat_Template-cache)(type Legacy)(uri ${KIPRJMOD}/Library/RPi_Zero_pHat_Template-master/RPi_Zero_pHat_Template-cache.lib)(options "")(descr ""))
+  (lib (name TIP2955)(type Legacy)(uri ${KIPRJMOD}/Library/TIP2955/TIP2955.lib)(options "")(descr ""))
+  (lib (name MP1584EN-LF-Z)(type Legacy)(uri ${KIPRJMOD}/Library/MP1584EN-LF-Z/MP1584EN-LF-Z.lib)(options "")(descr ""))
+)

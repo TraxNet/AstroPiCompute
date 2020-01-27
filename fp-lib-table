@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name Inductor_SMD)(type KiCad)(uri ${KIPRJMOD}/Library/Inductor_SMD.pretty)(options "")(descr ""))
+  (lib (name Connector_Samtec_HLE_SMD-ML)(type KiCad)(uri ${KIPRJMOD}/Library/RPi_Zero_pHat_Template-master/footprints/Connector_Samtec_HLE_SMD-ML.pretty)(options "")(descr ""))
+  (lib (name BAS116T)(type Legacy)(uri ${KIPRJMOD}/Library/BAS116T/BAS116T.mod)(options "")(descr ""))
+  (lib (name IRF7313)(type Legacy)(uri ${KIPRJMOD}/Library/IRF7313/IRF7313.mod)(options "")(descr ""))
+  (lib (name MP1584EN-LF-Z)(type Legacy)(uri ${KIPRJMOD}/Library/MP1584EN-LF-Z/MP1584EN-LF-Z.mod)(options "")(descr ""))
+  (lib (name TIP147)(type Legacy)(uri ${KIPRJMOD}/Library/TIP147/TIP147.mod)(options "")(descr ""))
+  (lib (name TIP2955)(type Legacy)(uri ${KIPRJMOD}/Library/TIP2955/TIP2955.mod)(options "")(descr ""))
+)
