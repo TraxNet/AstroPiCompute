@@ -22,12 +22,24 @@
 </node>
 <node CREATED="1580300949493" ID="ID_1945497510" MODIFIED="1580301195118" TEXT="Issues">
 <icon BUILTIN="messagebox_warning"/>
-<node CREATED="1580300798202" ID="ID_830053328" MODIFIED="1580300835000" TEXT="Fix appropiate Diode">
+<node CREATED="1580300798202" ID="ID_830053328" MODIFIED="1580379832467" TEXT="Fix appropiate Diode">
+<icon BUILTIN="go"/>
 <node CREATED="1580300835652" ID="ID_731201976" MODIFIED="1580300853768" TEXT="D1 may not be best candidate component for the job "/>
+<node CREATED="1580379805844" ID="ID_434602309" MODIFIED="1580379822204" TEXT="Added size for SMD M1 1A 50V diode">
+<node CREATED="1580379836016" ID="ID_1237603560" MODIFIED="1580379842763" TEXT="To be tested">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
 </node>
 <node CREATED="1580300968518" ID="ID_1164472926" MODIFIED="1580300982419" TEXT="Termal status of transistors">
 <node CREATED="1580301225522" ID="ID_958699918" MODIFIED="1580301234110" TEXT="Add more space?"/>
 <node CREATED="1580301235114" ID="ID_1535183642" MODIFIED="1580301254934" TEXT="Add some coper (holed) areas?"/>
+</node>
+<node CREATED="1580379494249" ID="ID_1687560618" MODIFIED="1580379534312" TEXT="12V in and FLT_12V net trave width not appropiate for high currents (up to 10A)">
+<node CREATED="1580380217014" FOLDED="true" ID="ID_1344281071" MODIFIED="1580380252020" TEXT="Add wide copper areas as heatsink">
+<icon BUILTIN="idea"/>
+<node CREATED="1580380247849" ID="ID_1534432682" MODIFIED="1580380248595" TEXT="https://www.monolithicpower.com/motor-driver-pcb-layout-guidelines-part-1"/>
+</node>
 </node>
 </node>
 </node>
