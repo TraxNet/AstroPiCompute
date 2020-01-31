@@ -83,12 +83,12 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 J_IN12V1
 U 1 1 5D594266
-P 1500 3500
-F 0 "J_IN12V1" H 1418 3175 50  0000 C CNN
-F 1 "12V" H 1418 3266 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm" H 1500 3500 50  0001 C CNN
-F 3 "~" H 1500 3500 50  0001 C CNN
-	1    1500 3500
+P 1050 3500
+F 0 "J_IN12V1" H 968 3175 50  0000 C CNN
+F 1 "12V" H 968 3266 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 1050 3500 50  0001 C CNN
+F 3 "~" H 1050 3500 50  0001 C CNN
+	1    1050 3500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -121,23 +121,21 @@ Connection ~ 3200 2400
 $Comp
 L Device:Fuse F1
 U 1 1 5D59995C
-P 2450 2400
-F 0 "F1" V 2253 2400 50  0000 C CNN
-F 1 "Fuse 15A" V 2344 2400 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2380 2400 50  0001 C CNN
-F 3 "~" H 2450 2400 50  0001 C CNN
-	1    2450 2400
+P 1500 3400
+F 0 "F1" V 1303 3400 50  0000 C CNN
+F 1 "Fuse 15A" V 1394 3400 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1430 3400 50  0001 C CNN
+F 3 "~" H 1500 3400 50  0001 C CNN
+	1    1500 3400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2300 2400 1700 2400
 $Comp
 L Connector:Screw_Terminal_01x02 J01_OUT1
 U 1 1 5D59BD6E
 P 3900 3800
 F 0 "J01_OUT1" H 3980 3792 50  0000 L CNN
 F 1 "12V" H 3980 3701 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm" H 3900 3800 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 3900 3800 50  0001 C CNN
 F 3 "~" H 3900 3800 50  0001 C CNN
 	1    3900 3800
 	1    0    0    -1  
@@ -148,7 +146,7 @@ U 1 1 5D59CB86
 P 4650 3800
 F 0 "J02_OUT1" H 4730 3792 50  0000 L CNN
 F 1 "12V" H 4730 3701 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm" H 4650 3800 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 4650 3800 50  0001 C CNN
 F 3 "~" H 4650 3800 50  0001 C CNN
 	1    4650 3800
 	1    0    0    -1  
@@ -159,7 +157,7 @@ U 1 1 5D59DE5E
 P 5350 3800
 F 0 "J03_OUT1" H 5430 3792 50  0000 L CNN
 F 1 "12V" H 5430 3701 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm" H 5350 3800 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 5350 3800 50  0001 C CNN
 F 3 "~" H 5350 3800 50  0001 C CNN
 	1    5350 3800
 	1    0    0    -1  
@@ -775,8 +773,6 @@ Wire Wire Line
 	2650 2600 2650 2400
 Connection ~ 1700 3150
 Connection ~ 2650 2400
-Wire Wire Line
-	2650 2400 2600 2400
 $Comp
 L Diode:1N4001 D1
 U 1 1 5E32FC19
@@ -821,4 +817,12 @@ $EndComp
 Connection ~ 10100 3700
 Wire Wire Line
 	10100 3700 10100 3750
+Wire Wire Line
+	1700 2400 2650 2400
+Wire Wire Line
+	1700 3400 1650 3400
+Wire Wire Line
+	1250 3400 1350 3400
+Wire Wire Line
+	1700 3500 1250 3500
 $EndSCHEMATC
